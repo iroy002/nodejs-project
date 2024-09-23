@@ -1,5 +1,16 @@
-"scripts": {
-    "start": "node app.js",
-    "test": "mocha tests/*.js",
-    "build": "webpack"
+{
+    "name": "nodejs-project",
+    "version": "1.0.0",
+    "description": "A simple Node.js application",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {},
+    "keywords": [],
+    "author": "jitendra",
+    "license": "ISC"
 }
